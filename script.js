@@ -152,6 +152,16 @@ deleteButton.addEventListener('click',() =>{
     calculator.updateDisplay()
 })
 
+// for toggle button
+
+const checkbox = document.getElementById('checkbox');
+
+checkbox.addEventListener('change', () => {
+    // change the theme of the calculator
+    document.body.classList.toggle('dark');
+    
+})
+
 
 
 
