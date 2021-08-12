@@ -7,7 +7,7 @@ body{
     padding: 0;
     margin: 0;
     background: linear-gradient(to right,#348F50,#56B4D3);
-    transition: background 0.3s linear;
+    
 }
 
 body.dark{
@@ -92,6 +92,7 @@ h1{
     grid-template-columns: repeat(4,70px);
     grid-template-rows: minmax(100px,auto) repeat(5,70px);
     /* border: 2px solid yellow; */
+    transition: background-color .3s linear;
 }
 
 
